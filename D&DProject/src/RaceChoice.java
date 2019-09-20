@@ -27,7 +27,7 @@ public class RaceChoice
 						System.out.println("You can either be:");
 						
 						System.out.println("1 Hill Dwarf");
-						System.out.println("Or 2 Mountian Dwarf");
+						System.out.println("2 Mountian Dwarf");
 						
 						Scanner dwarf = new Scanner(System.in);
 						int dwarfChoice = dwarf.nextInt();

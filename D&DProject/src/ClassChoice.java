@@ -4,7 +4,6 @@ public class ClassChoice
 	{
 		static String gameName;
 		static String class2;
-		public static void classChoice()
 		
 			{
 				// have to choose name
@@ -94,6 +93,8 @@ public class ClassChoice
 					{
 						System.out.println("One of the earth, a good-natured Druid!");
 						System.out.println("A Druid is a priest of the Old Faith, weilding the powers of nature - moonlight and plant growth, fire, and lighting. They can also adopted animal forms! Okay, the is AWESOME! Nature is the best isn't it!");
+						class2 = "Druid";
+
 					}
 				else if (class1 == 10)
 					{

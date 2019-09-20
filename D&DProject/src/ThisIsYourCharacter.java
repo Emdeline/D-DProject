@@ -1,11 +1,11 @@
 
 public class ThisIsYourCharacter
 	{
-
-		public static void main(String[] args)
+		static String character1;
 			{
-				// TODO Auto-generated method stub
-
+					System.out.println("This is you!");
+					System.out.println("Your name is " ClassChoice.gameName + " You are a " RaceChoice.race + " Who is of the " + ClassChoice.class2 + " class. ")
+					System.out.println("Your hit points without mods are: " )
 			}
 
 	}

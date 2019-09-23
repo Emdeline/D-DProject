@@ -44,7 +44,8 @@ public class Stats {
 
 		System.out.println("This is your character!");
 			    System.out.println("Your name is: " + ClassChoice.gameName);
-			    System.out.println("You are a: " + RaceChoice.race + " From the class of: " + ClassChoice.class2);
+			    System.out.println("You are a: " + RaceChoice.race);
+			    System.out.println("From the class of: " + ClassChoice.class2);
 			    System.out.println("And your hit points are: " + statNumber + statNumber1 + statNumber2 + statNumber3 + statNumber4 + statNumber5);
 	}
 	

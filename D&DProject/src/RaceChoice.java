@@ -17,6 +17,7 @@ public class RaceChoice
 				System.out.println(" 6 Tiefling");
 				System.out.println(" 7 Half-Orc");
 				System.out.println(" 8 Half-Elf");
+				System.out.println(" 9 Human");
 				
 				Scanner fred = new Scanner(System.in);
 				int race1 = fred.nextInt();
@@ -73,6 +74,10 @@ public class RaceChoice
 				else if (race1 == 8)
 					{
 						System.out.println("You have chosen to be a Half-Elf");						
+					}
+				else if (race1 == 9)
+					{
+						System.out.println("You have chosen to be a Human");						
 					}
 			}
 

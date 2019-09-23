@@ -4,7 +4,7 @@ public class ClassChoice
 	{
 		static String gameName;
 		static String class2;
-		
+		public static void chooseClass()
 			{
 				// have to choose name
 				
@@ -120,6 +120,8 @@ public class ClassChoice
 				// defining the class
 				
 						}
+
+			
 					
 			}
 	

@@ -6,10 +6,9 @@ public class DandDRunner
 		public static void main(String[] args)
 			{
 				Introduction.introduce();
-				ClassChoice.classChoice();
+				ClassChoice.chooseClass();
 				RaceChoice.raceChoice();
 				Stats.stat();
-				ThisisYourCharacter.character1();
 			}
 
 	}

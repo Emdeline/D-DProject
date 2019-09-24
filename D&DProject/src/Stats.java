@@ -67,16 +67,16 @@ public class Stats {
 			System.out.println("This is your character!");
 		
 				System.out.println(" ");
-			    System.out.println("Your name is: " + ClassChoice.gameName);
+			    System.out.println(" Name: " + ClassChoice.gameName);
 				
 			    System.out.println(" ");
-			    System.out.println("You are a: " + RaceChoice.race);
+			    System.out.println(" Race: " + RaceChoice.race);
 				
 			    System.out.println(" ");
-			    System.out.println("From the class of: " + ClassChoice.class2);
+			    System.out.println(" Class: " + ClassChoice.class2);
 				
 			    System.out.println(" ");
-			    System.out.println("And your stats are: ");
+			    System.out.println(" Stats: ");
 			    
 	  //these are your stats, they would be finalized with the mods in place...once you figure out how those work.
 			    	System.out.println(" Strength: " + statNumber);

@@ -9,6 +9,9 @@ public class DandDRunner
 				ClassChoice.chooseClass();
 				RaceChoice.raceChoice();
 				Stats.stat();
+				Mods.mods();
+				CampaignPt1.campaignpt1();
+				DandD.danddobjects();
 			}
 
 	}

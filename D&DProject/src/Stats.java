@@ -7,6 +7,13 @@ import sun.applet.Main;
 import java.util.ArrayList;
 
 public class Stats {
+	static int statNumber = (int) (Math.random() * 26);
+	static int statNumber1 = (int) (Math.random() * 26);
+	static int statNumber2 = (int) (Math.random() * 26);
+	static int statNumber3 = (int) (Math.random() * 26);
+	static int statNumber4 = (int) (Math.random() * 26);
+	static int statNumber5 = (int) (Math.random() * 26);
+
 
 	public static void stat() {
 		
@@ -14,22 +21,16 @@ public class Stats {
 		
 		
 		System.out.println("Your stats are: ");		
-		int statNumber = (int) (Math.random() * 26);
 		System.out.println(" Strength = " + statNumber);
 			
-		int statNumber1 = (int) (Math.random() * 26);
 		System.out.println(" Charisma = " + statNumber1);
 			
-		int statNumber2 = (int) (Math.random() * 26);
 		System.out.println(" Wisdom = " + statNumber2);
 			
-		int statNumber3 = (int) (Math.random() * 26);
 		System.out.println(" Intelligence = " + statNumber3);
 		
-		int statNumber4 = (int) (Math.random() * 26);
-		System.out.println(" Consitution = " + statNumber4);
+		System.out.println(" Constitution = " + statNumber4);
 			
-		int statNumber5 = (int) (Math.random() * 26);
 		System.out.println(" Dexterity = " + statNumber5);
 		
 			

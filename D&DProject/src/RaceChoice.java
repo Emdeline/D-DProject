@@ -160,9 +160,9 @@ public class RaceChoice
 						
 						System.out.println(" ");
 								System.out.println("You can either be:");
-								System.out.println(" (1) Burly Halfling");
-								System.out.println(" (2) Shadowfoot Halfling");
-								System.out.println(" (3) Fallohide Halfling");
+								System.out.println(" (1) Lightfoot Halfling");
+								System.out.println(" (2) Stout Halfling");
+								System.out.println(" (3) Burly Halfling");
 								
 						System.out.println(" ");
 								Scanner halfling = new Scanner(System.in);
@@ -173,23 +173,23 @@ public class RaceChoice
 										{
 						System.out.println(" ");
 
-											System.out.println("A Burly Halfling, I bet you pack a good punch!");
-											race = "Burly Halfling";
+											System.out.println("A Lightfoot Halfling, you are fast very very fast!");
+											race = "Lightfoot Halfling";
 										}
 									
 									else if (halflingChoice == 2)
 										{
 						System.out.println(" ");
 
-											System.out.println("A Shadowfoot Halfling. Man what a light step you have!");
+											System.out.println("A Shadowfoot Halfling. Man you need to wear a bell!");
 											race = "Shadowfoot Halfling";
 										}
 									else if (halflingChoice == 3)
 									{
 					System.out.println(" ");
 
-										System.out.println("A Fallohide Halfling, hmmm wanna play some hide and seak heheh.");
-										race = "Fallohide Halfling";
+										System.out.println("A Burly Halfling, wow you pack a punch.");
+										race = "Burly Halfling";
 									}
 
 					}

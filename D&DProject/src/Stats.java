@@ -19,7 +19,7 @@ public class Stats {
 		
 		ArrayList <DandD> stat = new ArrayList <DandD>();
 		
-		
+		System.out.println(" ");
 		System.out.println("Your stats are: ");		
 		System.out.println(" Strength = " + statNumber);
 			
@@ -32,6 +32,8 @@ public class Stats {
 		System.out.println(" Constitution = " + statNumber4);
 			
 		System.out.println(" Dexterity = " + statNumber5);
+		
+		
 		
 			
 	}

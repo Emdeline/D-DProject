@@ -16,7 +16,7 @@ public class CampaignPt1
 				System.out.println("You have to roll a 6 or higher to land a punch and a 4 or lower to run away.");
 				
 
-//did not have time to finish please extend this
+//did not have time to finish please extend this figure out the array
 
 
 				

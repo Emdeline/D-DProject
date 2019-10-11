@@ -2,21 +2,19 @@ import java.util.Random;
 
 import java.util.Scanner;
 
-import sun.applet.Main;
-
 import java.util.ArrayList;
 
 public class Stats {
-	static int statNumber = (int) (Math.random() * 26);
-	static int statNumber1 = (int) (Math.random() * 26);
-	static int statNumber2 = (int) (Math.random() * 26);
-	static int statNumber3 = (int) (Math.random() * 26);
-	static int statNumber4 = (int) (Math.random() * 26);
-	static int statNumber5 = (int) (Math.random() * 26);
+	static int statNumber = (int) (Math.random() * 23);
+	static int statNumber1 = (int) (Math.random() * 23);
+	static int statNumber2 = (int) (Math.random() * 23);
+	static int statNumber3 = (int) (Math.random() * 23);
+	static int statNumber4 = (int) (Math.random() * 23);
+	static int statNumber5 = (int) (Math.random() * 23);
 
 
 	public static void stat() {
-		
+		//array list
 		ArrayList <DandD> stat = new ArrayList <DandD>();
 		
 		System.out.println(" ");

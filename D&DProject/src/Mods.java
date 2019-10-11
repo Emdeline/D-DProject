@@ -1,12 +1,13 @@
 
 public class Mods
 	{
-		
+	static int mod;
+
 		public static void mods()
 			{
 				System.out.println(" ");
 				System.out.println("Based on your race choice you can get modules. These can either affect your stats in a negative way or a positive way.");
-			
+			// modding the stats 
 				//						 Strength		   Charisma			  Wisdom		  Intelligence		Constitution		  Dexterity
 				int [] tempStat = {Stats.statNumber, Stats.statNumber1, Stats.statNumber2, Stats.statNumber3, Stats.statNumber4, Stats.statNumber5};
 				int [] tempMods = new int [6];
@@ -17,6 +18,7 @@ public class Mods
 						System.out.println("Since you chose to be a Hill Dwarf, you get a +2 Strength");
 						Stats.statNumber += 2;
 						tempMods[0] = 2;
+						mod = tempMods[0];
 						break;
 						
 					case "Mountain Dwarf" :
@@ -136,18 +138,24 @@ public class Mods
 						break;	
 						
 				}
-				
+				// this is who you are
+				System.out.println(" ");
+				System.out.println("This is who you are: ");
+					System.out.println("Name: " + ClassChoice.gameName);
+					System.out.println("Class: " + ClassChoice.class2);
+					System.out.println("Race: " + RaceChoice.race);
+// stats moded printed out
 			System.out.println(" ");
-			System.out.println("Your new stats are:");
-				System.out.println("Strength =  " + tempStat[0] + tempMods[0]);
-				System.out.println("Charisma =  "  + tempStat[1] + " " + tempMods[1]);
-				System.out.println("Wisdom =  "  + tempStat[2] + " " + tempMods[2]);
-				System.out.println("Intelligence =  "  + tempStat[3] + " " + tempMods[3]);
-				System.out.println("Constitution =  "  + tempStat[4] + " " + tempMods[5]);
-				System.out.println("Dexterity =  "  + tempStat[5] + " " + tempMods[5]);
+			System.out.println("Lastly, your new stats are:");
+				System.out.println("Strength =  " + (tempStat[0] + tempMods[0]));
+				System.out.println("Charisma =  "  + (tempStat[1] + tempMods[1]));
+				System.out.println("Wisdom =  "  + (tempStat[2] + tempMods[2]));
+				System.out.println("Intelligence =  "  + (tempStat[3] + tempMods[3]));
+				System.out.println("Constitution =  "  + (tempStat[4] + tempMods[5]));
+				System.out.println("Dexterity =  "  + (tempStat[5] + tempMods[5]));
+			System.out.println(" ");
+			
 			}
 
 	}
-// races are Hill Dwarf(DONE), Mountain Dwarf(DONE), Sun Elf(DONE), Night Elf(DONE), Winter Elf(DONE), Desert Gnome(DONE), Cliff Gnome(DONE), RedCap Gnome(DONE),
-// 			 Lightfoot Halfling(DONE), Stout Halfling(DONE), Burly Halfling(DONE),  Dragonborn(DONE), Tiefling(DONE), Half-Orc(DONE), Half-Elf(DONE), Human(DONE)
 // stats are Strength: statNumber; Charisma: statNumber1; Wisdom: statNumber2; Intelligence: statNumber3; Constitution: statNumber4; Dexterity: statNumber5.

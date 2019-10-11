@@ -11,7 +11,6 @@ public class DandDRunner
 				Stats.stat();
 				Mods.mods();
 				CampaignPt1.campaignpt1();
-				DandD.danddobjects();
 			}
 
 	}

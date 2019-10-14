@@ -11,6 +11,9 @@ public class DandDRunner
 				Stats.stat();
 				Mods.mods();
 				CampaignPt1.campaignpt1();
+				CampaignPt1.loadCampaign();
+				CampaignPt1.campaignChoice();
+				
 			}
 
 	}

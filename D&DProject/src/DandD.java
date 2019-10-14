@@ -6,19 +6,13 @@ public class DandD
 	private static int StatNumber;
 	private static String Mod;
 	private static int ModNumber;
-	private static String Enemy;
-	private static String WinOrLose;
-	private static String ChoiceOfAttack;
 	
-	public DandD(String S, int SN, String M, int MN, String E, String WL, String CA)
+	public DandD(String S, int SN, String M, int MN)
 		{
 			Stat = S;
 			StatNumber = SN;
 			Mod = M;
 			ModNumber = MN;
-			Enemy = E;
-			WinOrLose = WL;
-			ChoiceOfAttack = CA;
 		}
 
 	public static int getStatNumber() {
@@ -52,31 +46,6 @@ public class DandD
 	public static void setMod(String mod) {
 		Mod = mod;
 	}
-
-	public static String getEnemy() {
-		return Enemy;
-	}
-
-	public static void setEnemy(String enemy) {
-		Enemy = enemy;
-	}
-
-	public static String getWinOrLose() {
-		return WinOrLose;
-	}
-
-	public static void setWinOrLose(String winOrLose) {
-		WinOrLose = winOrLose;
-	}
-
-	public static String getChoiceOfAttack() {
-		return ChoiceOfAttack;
-	}
-
-	public static void setChoiceOfAttack(String choiceOfAttack) {
-		ChoiceOfAttack = choiceOfAttack;
-	}
-	
 	
 	
 }
